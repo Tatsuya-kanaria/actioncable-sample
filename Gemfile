@@ -49,6 +49,8 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of web drivers to run system tests with browsers
   gem 'webdrivers'
+  gem 'minitest'
+  gem 'minitest-reporters'
 end
 
 group :production do
@@ -58,6 +60,7 @@ end
 gem 'slim'
 gem 'html2slim'
 gem 'simple_form'
+gem 'rexml'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
